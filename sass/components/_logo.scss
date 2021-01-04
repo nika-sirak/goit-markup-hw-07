@@ -1,0 +1,20 @@
+.logo {
+  font-family: var(--accent-font);
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+
+  &.accent {
+    color: var(--accent-text-color);
+  }
+  &.dark {
+    color: #000000;
+    margin-right: 93px;
+  }
+
+  &.light {
+    display: inline-block;
+    margin-bottom: 20px;
+    color: #ffffff;
+  }
+}
